@@ -29,5 +29,7 @@ Welcome to my digital showcase! This personal website is my stage to spotlight t
 * 🎨 **Tailwind CSS**
 * 🌐 **Vercel**
 
+<a href="https://personal-website-cyan-rho.vercel.app" target="_blank" title="My Website">
+  🚀 Check it out
+</a>
 
-## 🔗 Live Demo: personal-website-cyan-rho.vercel.app

@@ -1,26 +1,51 @@
 @import "tailwindcss";
+/* globals.css */
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* 1) Import your web-fonts */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* 3) Global resets / base styles */
+@layer base {
+  /* apply Outfit everywhere by default */
+  * {
+    font-family: 'Outfit', sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* 4) Your custom utilities */
+@layer utilities {
+  /* Fonts */
+  .font-ovo {
+    font-family: 'Ovo', serif;
+  }
+  /* Colors as backgrounds */
+  .bg-light-hover     { background-color: #fcf4ff; }
+  .hover\:bg-light-hover:hover { background-color: #fcf4ff; }
+
+  .bg-dark-hover      { background-color: #2a000a; }
+  .hover\:bg-dark-hover:hover  { background-color: #2a000a; }
+
+  .bg-dark-theme      { background-color: #11001F; }
+
+  /* Colors as text */
+  .text-light-hover   { color: #fcf4ff; }
+  .hover\:text-light-hover:hover { color: #fcf4ff; }
+
+  .text-dark-hover    { color: #2a000a; }
+  .hover\:text-dark-hover:hover  { color: #2a000a; }
+
+  .text-dark-theme    { color: #11001F; }
+
+  .shadow-black {
+  box-shadow: 4px 4px 0 #000;
+}
+ /* explicit hover version: */
+  .hover\:shadow-black:hover {
+    box-shadow: 4px 4px 0 #000;
+  }
+
+.shadow-white {
+  box-shadow: 4px 4px 0 #fff;
+}
+
 }

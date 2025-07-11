@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Website
 
-## Getting Started
+**Welcome to my digital hub!** This site is the place where I share my passion for computer science, and showcase cool projects I’ve built!
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. [About](#about)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 👩‍💻 About Me
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Welcome to my digital showcase! This personal website is my stage to spotlight the projects that ignite my curiosity and the story behind my journey as a computer science enthusiast. 
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⭐ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **HomePage:** Effortlessly download my resume and catch a quick snapshot of my background.
+* **Project Showcase:** Dive into my latest work, with live links.
+* **Responsive Design:** Seamless experience whether you’re on a phone, tablet, or giant desktop monitor.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* 🚀 **Next.js** & **React**
+* 🎨 **Tailwind CSS**
+* 🌐 **Vercel**
+
+
+## 🔗 Live Demo: personal-website-cyan-rho.vercel.app

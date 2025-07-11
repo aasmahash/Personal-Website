@@ -15,7 +15,6 @@ import logo from './logo.png';
 import asmalogo from './asmalogo.png'
 import asmalogo_removebg from './asmalogo_removebg.png'
 import asmabiglogo from './asmabiglogo.png'
-import AsmaHeadshot from './AsmaHeadshot.png'
 import asmaback from './asmaback.png'
 import aboutme from './aboutme.png'
 import logo_dark from './logo_dark.png';
@@ -58,7 +57,6 @@ export const assets = {
     asmalogo_removebg,
     asmalogo,
     asmabiglogo,
-    AsmaHeadshot,
     asmaback,
     aboutme,
     logo,

@@ -17,6 +17,7 @@ import asmalogo_removebg from './asmalogo_removebg.png'
 import asmabiglogo from './asmabiglogo.png'
 import asmaback from './asmaback.png'
 import aboutme from './aboutme.png'
+import perfume from './perfume.png'
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
@@ -59,6 +60,7 @@ export const assets = {
     asmabiglogo,
     asmaback,
     aboutme,
+    perfume,
     logo,
     logo_dark,
     mail_icon,
@@ -104,6 +106,7 @@ export const workData = [
   { title: 'WeatherApp',      bgImage: '/weather.png', link:'https://github.com/aasmahash/WeatherApp' },
   { title: 'ThinkBox',        bgImage: '/thinkb.png' , link:'https://github.com/aasmahash/ThinkBox'},
   { title: 'My Personal Site',bgImage: '/mywebsite.png' , link:'https://github.com/aasmahash'},
+  { title: 'Perfume Inventory Tracker',bgImage: '/perfumer.png' , link:'https://github.com/aasmahash/PerfumeInventoryTracker'}
 ]
 
 

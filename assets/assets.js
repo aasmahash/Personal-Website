@@ -18,6 +18,7 @@ import asmabiglogo from './asmabiglogo.png'
 import asmaback from './asmaback.png'
 import aboutme from './aboutme.png'
 import perfume from './perfume.png'
+import dermobot from './dermobot.png'
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
@@ -84,7 +85,8 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    dermobot
 };
 
 /*export const workData = [
@@ -99,6 +101,10 @@ export const assets = {
     {
         title: 'My Personal Website',
         bgImage: 'mywebsite/.png',
+
+         title: 'Dermobot',
+        bgImage: '/dermobot.png',
+
     },
     
 ]*/
@@ -106,7 +112,8 @@ export const workData = [
   { title: 'WeatherApp',      bgImage: '/weather.png', link:'https://github.com/aasmahash/WeatherApp' },
   { title: 'ThinkBox',        bgImage: '/thinkb.png' , link:'https://github.com/aasmahash/ThinkBox'},
   { title: 'My Personal Site',bgImage: '/mywebsite.png' , link:'https://github.com/aasmahash'},
-  { title: 'Perfume Inventory Tracker',bgImage: '/perfumer.png' , link:'https://github.com/aasmahash/PerfumeInventoryTracker'}
+  { title: 'Perfumora',bgImage: '/perfumer.png' , link:'https://github.com/aasmahash/PerfumeInventoryTracker'},
+  { title: 'Dermobot',bgImage: 'dermobot.png' , link:'https://devpost.com/software/dermobot'}
 ]
 
 
@@ -119,8 +126,8 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Python, Java, C, JavaScript, React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc in Computer Science at York University [2023-2027]' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Expereince', description:[ 'Market Research Lead at FI Solutions',' Logistics Exec at ElleHacks'] }
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc in Computer Science at York University [2023-2028]' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Expereince', description:[ 'Data Analyst and Research Cordinator at Orfe EcoArt', 'Market Research Lead at FI Solutions',' Logistics Exec at ElleHacks'] }
 ];
 
 export const toolsData = [

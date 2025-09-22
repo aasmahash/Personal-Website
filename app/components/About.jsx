@@ -20,7 +20,7 @@ const About = () => {
         <div className= 'flex-1'>
             <p className='mb-10 max-w-2xl font-Ovo'
             >
-               I’m a software developer who’s always learning new technologies and building projects that solve real problems that improves user experiences. I’m driven by curiosity, creativity, and a desire to make an impact.
+               I’m an aspiring software developer who’s always learning new technologies and building projects that solve real problems that improves user experiences. I’m driven by curiosity, creativity, and a desire to make an impact.
 
                 </p>
         <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 

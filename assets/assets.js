@@ -16,6 +16,7 @@ import asmalogo from './asmalogo.png'
 import asmalogo_removebg from './asmalogo_removebg.png'
 import asmabiglogo from './asmabiglogo.png'
 import asmaback from './asmaback.png'
+import pink from './pink.png'
 import aboutme from './aboutme.png'
 import perfume from './perfume.png'
 import dermobot from './dermobot.png'
@@ -86,7 +87,8 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    dermobot
+    dermobot,
+    pink
 };
 
 /*export const workData = [
@@ -112,8 +114,8 @@ export const workData = [
   { title: 'WeatherApp',      bgImage: '/weather.png', link:'https://github.com/aasmahash/WeatherApp' },
   { title: 'ThinkBox',        bgImage: '/thinkb.png' , link:'https://github.com/aasmahash/ThinkBox'},
   { title: 'My Personal Site',bgImage: '/mywebsite.png' , link:'https://github.com/aasmahash'},
-  { title: 'Perfumora',bgImage: '/perfumer.png' , link:'https://github.com/aasmahash/PerfumeInventoryTracker'},
-  { title: 'Dermobot',bgImage: 'dermobot.png' , link:'https://devpost.com/software/dermobot'}
+  { title: 'Perfumora',bgImage: '/pink.png' , link:'https://github.com/aasmahash/PerfumeInventoryTracker'},
+  { title: 'Dermobot',bgImage: '/dermobot.png' , link:'https://devpost.com/software/dermobot'}
 ]
 
 

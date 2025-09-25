@@ -128,8 +128,8 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Python, Java, C, JavaScript, React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc in Computer Science at York University [2023-2028]' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Expereince', description:[ 'Data Analyst and Research Cordinator at Orfe EcoArt', 'Market Research Lead at FI Solutions',' Logistics Exec at ElleHacks'] }
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Honours BSc in Computer Science at York University' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Expereince', description:[ 'Lead Webmaster at Muslims In Academia (MIA)', 'Data Analyst and Research Cordinator at Orfe EcoArt', 'Market Research Lead at FI Solutions',' Logistics Exec at ElleHacks'] }
 ];
 
 export const toolsData = [

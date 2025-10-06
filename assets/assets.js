@@ -19,6 +19,7 @@ import asmaback from './asmaback.png'
 import pink from './pink.png'
 import aboutme from './aboutme.png'
 import perfume from './perfume.png'
+import medium from './medium.png'
 import dermobot from './dermobot.png'
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
@@ -88,7 +89,8 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     dermobot,
-    pink
+    pink,
+    medium
 };
 
 /*export const workData = [
@@ -111,11 +113,12 @@ export const assets = {
     
 ]*/
 export const workData = [
+  { title: 'Dermobot',bgImage: '/dermobot.png' , link:'https://devpost.com/software/dermobot'},
+ { title: 'SmartSpend',bgImage: '/medium.png' , link:'https://github.com/aasmahash/SmartSpend-HackTheValley'},
+  { title: 'Perfumora',bgImage: '/pink.png' , link:'https://github.com/aasmahash/PerfumeInventoryTracker'},
   { title: 'WeatherApp',      bgImage: '/weather.png', link:'https://github.com/aasmahash/WeatherApp' },
   { title: 'ThinkBox',        bgImage: '/thinkb.png' , link:'https://github.com/aasmahash/ThinkBox'},
-  { title: 'My Personal Site',bgImage: '/mywebsite.png' , link:'https://github.com/aasmahash'},
-  { title: 'Perfumora',bgImage: '/pink.png' , link:'https://github.com/aasmahash/PerfumeInventoryTracker'},
-  { title: 'Dermobot',bgImage: '/dermobot.png' , link:'https://devpost.com/software/dermobot'}
+  { title: 'My Personal Site',bgImage: '/mywebsite.png' , link:'https://github.com/aasmahash'}
 ]
 
 

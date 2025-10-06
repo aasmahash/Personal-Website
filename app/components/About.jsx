@@ -6,7 +6,7 @@ import { infoList } from '@/assets/assets'
 const About = () => {
   return (
     <div id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
-        <h4 className='text-center mb-2 text-2xl font-Ovo'>
+        <h4 className='text-center mb-2 text-3xl font-Ovo pt-10'>
             Introduction </h4>
         <h2 className='text-center mb-2 text-5xl font-Ovo'> 
             About me </h2>
@@ -18,7 +18,7 @@ const About = () => {
             rounded-3xl'/>
         </div>
         <div className= 'flex-1'>
-            <p className='mb-10 max-w-2xl font-Ovo'
+            <p className='mb-10 max-w-3xl font-Ovo'
             >
                I’m an aspiring software developer who’s always learning new technologies and building projects that solve real problems that improves user experiences. I’m driven by curiosity, creativity, and a desire to make an impact.
 

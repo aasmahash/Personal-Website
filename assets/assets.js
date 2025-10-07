@@ -114,7 +114,7 @@ export const assets = {
 ]*/
 export const workData = [
   { title: 'Dermobot',bgImage: '/dermobot.png' , link:'https://devpost.com/software/dermobot'},
- { title: 'SmartSpend',bgImage: '/medium.png' , link:'https://github.com/aasmahash/SmartSpend-HackTheValley'},
+ { title: 'SmartSpend',bgImage: '/medium.png' , link:'https://devpost.com/software/smartspend-cy6ewk'},
   { title: 'Perfumora',bgImage: '/pink.png' , link:'https://github.com/aasmahash/PerfumeInventoryTracker'},
   { title: 'WeatherApp',      bgImage: '/weather.png', link:'https://github.com/aasmahash/WeatherApp' },
   { title: 'ThinkBox',        bgImage: '/thinkb.png' , link:'https://github.com/aasmahash/ThinkBox'},

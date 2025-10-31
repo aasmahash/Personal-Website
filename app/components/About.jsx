@@ -20,8 +20,9 @@ const About = () => {
         <div className= 'flex-1'>
             <p className='mb-10 max-w-3xl font-Ovo'
             >
-               I’m an aspiring software developer who’s always learning new technologies and building projects that solve real problems that improves user experiences. I’m driven by curiosity, creativity, and a desire to make an impact.
-
+                I’m a third-year Computer Science student at York University seeking co-op or internship opportunities in software development. 
+                I’m passionate about creating impactful solutions and eager to contribute to a team where I can learn, collaborate, and make a meaningful difference.
+                 As an aspiring software developer, I love exploring new technologies and building projects that solve real-world problems and enhance user experiences. 
                 </p>
         <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 
         max-w-2x1'>
@@ -41,11 +42,15 @@ const About = () => {
     {Array.isArray(description) ? (
       <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
         {description.map((exp, i) => (
-          <li key={i}>{exp}</li>
+          <li key={i} dangerouslySetInnerHTML={{ __html: exp }} />
+
         ))}
       </ul>
     ) : (
-      <p className="text-gray-600 text-sm">{description}</p>
+  <p
+  className="text-gray-600 text-sm"
+  dangerouslySetInnerHTML={{ __html: description }}
+/>
     )}
                 </li>
             ))}

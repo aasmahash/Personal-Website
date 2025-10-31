@@ -20,15 +20,7 @@ function Footer() {
             © 2025 Asma Hashar. All rights reserved.
           </p>
           <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-            <li>
-              <a
-                href="https://www.instagram.com/asma.mlkk/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Instagram
-              </a>
-            </li>
+         
             <li>
               <a
                 href="https://www.linkedin.com/in/asma-hashar/"

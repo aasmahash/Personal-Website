@@ -130,9 +130,31 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Python, Java, C, JavaScript, React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages & Frameworks', description: 'Java, JavaScript, Python, React, HTML, CSS, Node.js, Next.js, Flask, Tailwind CSS, Java Spring Boot'  },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Honours BSc in Computer Science at York University' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Expereince', description:[ ' AI Software Deveolopment Intern at Lets Get Together', 'Lead Webmaster at Muslims In Academia (MIA)', 'Data Analyst and Research Cordinator at Orfe EcoArt', 'Market Research Intern at FI Solutions',' Logistics Exec at ElleHacks'] }
+   
+  { 
+    icon: assets.project_icon, 
+    iconDark: assets.project_icon_dark, 
+    title: 'Experience', 
+    description: [
+      '<b>Full-Stack Developer</b> Intern at Lets Get Together (Internship)',
+      '<b>Lead Webmaster</b> at Muslims In Academia (MIA)',
+      '<b>Data Analyst</b> at Orfe EcoArt',
+      '<b>Market Research Intern</b> at Age Forward (Internship)',
+      '<b>AI/ML Engineer</b> at AIForImpact',
+      '<b>Logistics Exec</b> at ElleHacks'
+
+
+
+      
+
+
+
+
+
+    ]
+  }
 ];
 
 export const toolsData = [

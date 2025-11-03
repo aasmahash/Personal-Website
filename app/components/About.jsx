@@ -10,13 +10,20 @@ const About = () => {
             Introduction </h4>
         <h2 className='text-center mb-2 text-5xl font-Ovo'> 
             About me </h2>
+
+
+
       
-      <div className='flex w-full flex-col lg:flex-row items-center
-      gap-20 my-20'>
-        <div className='w-64 sm:w-80 rounded-3xl max-w-none'> 
+      <div className='flex w-full flex-col lg:flex-row items-start lg:items-start gap-5 my-5'>
+
+        <div className='w-64 sm:w-80 rounded-3xl max-w-none -mt-10 lg:-mt-20'> 
              <Image src={assets.aboutme} alt='' className='w-full
             rounded-3xl'/>
         </div>
+
+        
+
+        
         <div className= 'flex-1'>
             <p className='mb-10 max-w-3xl font-Ovo'
             >

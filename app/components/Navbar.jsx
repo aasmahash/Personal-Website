@@ -36,22 +36,21 @@ const Navbar  = () => {
         <Image src={assets.asmabiglogo}  alt="asmalogo" className='w-28
         cursor-pointer mr-14'/>
        </a>
-       <ul className={`hidden md:flex items-center gap-6 lg:gap-8
-       rounded-full px-12 py-3 ${isScroll ? "": "bg-white/20 shadow-sm bg-opacity-50"} `}>
-        <li><a className='font-ovo' href="#top">Home</a></li>
-        <li><a className='font-ovo' href="#about">About me</a></li>
-        <li><a className='font-ovo' href="#work">My Work</a></li>
-        <li><a className='font-ovo' href="#contact">Contact me</a></li>
-       </ul>
+      {/* Centered Navbar Links */}
+<div className="absolute left-1/2 transform -translate-x-1/2">
+  <ul className={`hidden md:flex items-center gap-6 lg:gap-8
+  rounded-full px-12 py-3 ${isScroll ? "" : "bg-white/20 shadow-sm bg-opacity-50"}`}>
+    <li><a className='font-ovo' href="#top">Home</a></li>
+    <li><a className='font-ovo' href="#about">About me</a></li>
+    <li><a className='font-ovo' href="#work">My Work</a></li>
+    <li><a className='font-ovo' href="#contact">Contact me</a></li>
+  </ul>
+</div>
 
-       <div className='flex items-center gap-4'>
+
+       <div className='flex items-center gap-3'>
         
-
-        <a href="#contact" className='hidden lg:flex items-center gap-3 
-         px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-ovo'>Contact <Image src={assets.
-            arrow_icon} alt=""className='w-3'/></a>
-
-            <button className='block md:hidden ml-3'onClick={openMenu}>
+    <button className='block md:hidden ml-3'onClick={openMenu}>
                 <Image src={assets.menu_black} alt='' className='w-6'/>
             </button>
        </div>
@@ -67,7 +66,6 @@ const Navbar  = () => {
 
         <li><a className='font-ovo'onClick={closeMenu} href="#top">Home</a></li>
         <li><a className='font-ovo'onClick={closeMenu} href="#about">About me</a></li>
-        <li><a className='font-ovo'onClick={closeMenu}href="#services">Services</a></li>
         <li><a className='font-ovo'onClick={closeMenu} href="#work">My Work</a></li>
         <li><a className='font-ovo'onClick={closeMenu} href="#contact">Contact me</a></li>
        </ul>

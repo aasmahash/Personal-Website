@@ -118,7 +118,7 @@ export const workData = [
   { title: 'Perfumora',bgImage: '/pink.png' , link:'https://github.com/aasmahash/PerfumeInventoryTracker'},
   { title: 'WeatherApp',      bgImage: '/weather.png', link:'https://github.com/aasmahash/WeatherApp' },
   { title: 'ThinkBox',        bgImage: '/thinkb.png' , link:'https://github.com/aasmahash/ThinkBox'},
-  { title: 'My Personal Site',bgImage: '/mywebsite.png' , link:'https://github.com/aasmahash'}
+  
 ]
 
 

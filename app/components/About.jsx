@@ -6,7 +6,7 @@ import { useDarkMode } from './DarkModeContext'
 
 const About = () => {
   const { darkMode } = useDarkMode()
-  
+
   return (
     <div id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
       <h4 className={`text-center mb-2 text-3xl font-Ovo pt-10 ${darkMode ? 'text-purple-300' : 'text-black'}`}>
@@ -17,12 +17,29 @@ const About = () => {
       </h2>
 
       <div className='flex w-full flex-col lg:flex-row items-start lg:items-start gap-5 my-5'>
-        <div className='w-64 sm:w-80 rounded-3xl max-w-none -mt-10 lg:-mt-20'> 
-          <Image 
-            src={assets.aboutme} 
-            alt='' 
-            className='w-full rounded-3xl'
-          />
+        {/* Image container with crossfade */}
+        <div className='w-64 sm:w-80 rounded-3xl max-w-none -mt-10 lg:-mt-20 relative h-[320px] overflow-hidden'>
+          {/* Light version (shows when darkMode is false) */}
+          <div className={`absolute inset-0 transition-opacity duration-500 ${darkMode ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+            <Image
+              src={assets.aboutme}
+              alt='About me'
+              fill
+              style={{ objectFit: 'cover' }}
+              className='rounded-3xl'
+            />
+          </div>
+
+          {/* White version (shows when darkMode is true) */}
+          <div className={`absolute inset-0 transition-opacity duration-500 ${darkMode ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+            <Image
+              src={assets.aboutmewhite}
+              alt='About me (white)'
+              fill
+              style={{ objectFit: 'cover' }}
+              className='rounded-3xl'
+            />
+          </div>
         </div>
         
         <div className='flex-1'>

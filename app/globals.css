@@ -1,24 +1,40 @@
 @import "tailwindcss";
-/* globals.css */
 
-/* 1) Import your web-fonts */
-
-
-/* 3) Global resets / base styles */
 @layer base {
-  /* apply Outfit everywhere by default */
   * {
     font-family: 'Outfit', sans-serif;
   }
+  
+  /* Light mode (default) */
+  body, html {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark mode */
+  body.dark, html:has(body.dark) {
+    background-color: #11001F !important;
+    color: #ffffff;
+  }
+  
+  /* Ensure all main containers inherit dark background */
+  body.dark * {
+    border-color: inherit;
+  }
+  
+  body.dark > div {
+    background-color: transparent;
+  }
 }
 
-/* 4) Your custom utilities */
 @layer utilities {
   /* Fonts */
   .font-ovo {
     font-family: 'Ovo', serif;
   }
-  /* Colors as backgrounds */
+  
+  /* Light mode colors */
   .bg-light-hover     { background-color: #fcf4ff; }
   .hover\:bg-light-hover:hover { background-color: #fcf4ff; }
 
@@ -27,7 +43,6 @@
 
   .bg-dark-theme      { background-color: #11001F; }
 
-  /* Colors as text */
   .text-light-hover   { color: #fcf4ff; }
   .hover\:text-light-hover:hover { color: #fcf4ff; }
 
@@ -36,16 +51,41 @@
 
   .text-dark-theme    { color: #11001F; }
 
+  /* Shadows */
   .shadow-black {
-  box-shadow: 4px 4px 0 #000;
-}
- /* explicit hover version: */
+    box-shadow: 4px 4px 0 #000;
+  }
+  
   .hover\:shadow-black:hover {
     box-shadow: 4px 4px 0 #000;
   }
 
-.shadow-white {
-  box-shadow: 4px 4px 0 #fff;
-}
-
+  .shadow-white {
+    box-shadow: 4px 4px 0 #fff;
+  }
+  
+  /* Dark mode specific utilities */
+  .dark .dark\:bg-dark-theme {
+    background-color: #11001F;
+  }
+  
+  .dark .dark\:text-white {
+    color: #ffffff;
+  }
+  
+  .dark .dark\:bg-white\/10 {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark .dark\:border-white\/20 {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .dark .dark\:hover\:bg-dark-hover:hover {
+    background-color: #4a1a5e;
+  }
+  
+  .dark .dark\:shadow-white {
+    box-shadow: 4px 4px 0 #fff;
+  }
 }

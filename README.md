@@ -27,7 +27,8 @@ To view the live site, just click the badge below:
 
 ## ⭐ Features
 
-* **HomePage:** Effortlessly download my resume and catch a quick snapshot of my background.  
+* **HomePage:** Effortlessly download my resume and catch a quick snapshot of my background.
+* **Dark Mode and Light Mode:** Easily switch between dark and light modes, from a click of a button! 
 * **Project Showcase:** Dive into my latest work, with live links.  
 * **Responsive Design:** Seamless experience whether you’re on a phone, tablet, or giant desktop monitor.  
 

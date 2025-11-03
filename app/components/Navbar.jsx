@@ -54,13 +54,16 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <div className='flex items-center gap-3'>
-                    {/* Dark Mode Toggle Button */}
-                    <button 
-                        onClick={toggleDarkMode}
-                        className='w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-200 dark:hover:bg-white/10 transition'
-                    >
-                        {darkMode ? '☀️' : '🌙'}
+               <div className='flex items-center gap-3'>
+ {/* Dark Mode Toggle Button */}
+<button 
+  onClick={toggleDarkMode}
+  className='w-24 h-24 flex items-center justify-center rounded-full 
+             border-4 border-gray-300 dark:border-white/20 
+             text-2xl shadow-md hover:bg-gray-200 dark:hover:bg-white/10 
+             transition'
+>
+  {darkMode ? '☀️' : '🌙'}
                     </button>
                     
                     <button className='block md:hidden ml-3' onClick={openMenu}>

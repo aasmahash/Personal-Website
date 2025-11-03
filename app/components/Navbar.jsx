@@ -39,10 +39,13 @@ const Navbar = () => {
                     : "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" 
                 : ""}`}>
 
-                <a href="#top">
-                    <Image src={assets.asmabiglogo} alt="asmalogo" className='w-28 cursor-pointer mr-14'/>
-                </a>
-                
+               <a href="#top">
+    <Image 
+        src={darkMode ? assets.whitelogo : assets.asmabiglogo} 
+        alt="asmalogo" 
+        className='w-28 cursor-pointer mr-14'
+    />
+</a>
                 {/* Centered Navbar Links */}
                 <div className="absolute left-1/2 transform -translate-x-1/2">
                     <ul className={`hidden md:flex items-center gap-6 lg:gap-8

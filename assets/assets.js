@@ -21,6 +21,7 @@ import aboutme from './aboutme.png'
 import perfume from './perfume.png'
 import medium from './medium.png'
 import dermobot from './dermobot.png'
+import whitelogo from './whitelogo.png'
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
@@ -90,7 +91,8 @@ export const assets = {
     right_arrow_bold_dark,
     dermobot,
     pink,
-    medium
+    medium,
+    whitelogo
 };
 
 /*export const workData = [

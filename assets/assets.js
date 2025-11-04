@@ -143,7 +143,7 @@ export const infoList = [
     title: 'Experience', 
     description: [
       '<b>Full-Stack Developer</b> Intern at Lets Get Together (Internship)',
-      '<b>Lead Webmaster</b> at Muslims In Academia (MIA)',
+      '<b>Lead Web Developer</b> at Muslims In Academia (MIA)',
       '<b>Data Analyst</b> at Orfe EcoArt',
       '<b>Market Research Intern</b> at Age Forward (Internship)',
       '<b>AI/ML Engineer</b> at AIForImpact',

@@ -142,6 +142,7 @@ export const infoList = [
     iconDark: assets.project_icon_dark, 
     title: 'Experience', 
     description: [
+      '<b>AI and Software Engineer Intern</b> at PitStop (Co-op)',
       '<b>Full-Stack Developer</b> Intern at Lets Get Together (Internship)',
       '<b>Lead Web Developer</b> at Muslims In Academia (MIA)',
       '<b>Data Analyst</b> at Orfe EcoArt',

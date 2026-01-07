@@ -7,7 +7,12 @@ const Header = () => {
   const { darkMode } = useDarkMode()
   
   return (
-    <div className={darkMode ? 'bg-[#11001F]' : ''}>
+    <div className={`relative ${darkMode ? 'bg-[#11001F]' : ''}`}>
+      {!darkMode && (
+        <div className='absolute top-0 right-0 w-full -z-10'>
+          <Image src={assets.header_bg_color} alt='' className='w-full'/>
+        </div>
+      )}
       <div className='w-11/12 max-w-3xl text-center mx-auto h-[calc(100vh-4rem)] flex flex-col
       items-center justify-center gap-4 pt-37'>
         <Image src={assets.asmaback} alt='' className='rounded-full w-50' />
@@ -17,7 +22,7 @@ const Header = () => {
         </h3>
         
         <h1 className={`text-3xl sm:text-6xl lg:text-[66px] font-Ovo ${darkMode ? 'text-white' : 'text-black'}`}>
-          Open for Co-op and Internship Roles.
+          Open for Co-op Roles (Summer 2026).
         </h1>
         
         <p className='max-w-2xl mx-auto font-Ovo'></p>

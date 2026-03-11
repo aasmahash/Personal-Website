@@ -118,6 +118,7 @@ export const assets = {
 ]*/
 export const workData = [
   { title: 'Dermobot',bgImage: '/dermobot.png' , link:'https://devpost.com/software/dermobot'},
+  { title: 'Pledgely',bgImage: '/pledgely.png' , link:'https://devpost.com/software/pledgely'},
  { title: 'SmartSpend',bgImage: '/medium.png' , link:'https://devpost.com/software/smartspend-cy6ewk'},
   { title: 'Perfumora',bgImage: '/pink.png' , link:'https://github.com/aasmahash/PerfumeInventoryTracker'},
   { title: 'WeatherApp',      bgImage: '/weather.png', link:'https://github.com/aasmahash/WeatherApp' },
